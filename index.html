@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https : //fonts.googleapis.com/css2? family= IBM+Plex+Mono:ital@1 & family= Montserrat:wght@200 & family= Noto+Serif+Hebrew:wght@900 & display=swap"
+        rel="stylesheet ">
+    <title>Démineur</title>
+</head>
+
+<body>
+
+    <h1>DEMINEUR</h1>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <form id="grid-form">
+                <h2>Vos paramètres : </h2>
+                <label for="rows">Nombres de lignes : </label>
+                <br>
+                <input type="number" id="rows">
+                <br>
+                <label for="columns">Nombres de colonnes : </label>
+                <br>
+                <input type="number" id="columns">
+                <br>
+                <label for="bombs">Nombres de bombes : </label>
+                <br>
+                <input type="number" id="bombs">
+                <br>
+                <button type="submit" class="close">Valider</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="grid-container" id="grid-container"></div>
+
+    <button id="restart">Recommencer</button>
+
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&display=swap');
+      </style>
+</body>
+
+</html>
